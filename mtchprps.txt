@@ -1,0 +1,25 @@
+
+             Match Properties External Macro for VX-Rexx 2.1c
+             	       Written by Adam Van de Berghe
+		       email address: aabacus@li.net
+
+ This is a simple macro that will let you match several properties of multiple
+objects at one time.  This is similar to the "Match Sizes..." macro that came
+with VX-Rexx, except you can match more properties at the same time.
+
+ To install, copy mtchprps.vrm and mtchprps.vrw into your VXREXX\MACROS
+directory and add the following line to your profile.vrm file:
+        Call VREMacroAdd "Match Properties...", "MtchPrps.VRM"
+
+ Thats it!  Next time you start VX-Rexx, you'll have a new feature!  If you
+have any questions or comments, you can e-mail me at:  aabacus@li.net
+
+ You my recieve an error if you try to match an objects property that doesn't
+exist.  For instance, if you were to match a MLE with a Button and tried setting
+the MLE's caption to be the same as the buttons, then you would get an error
+because an MLE doesn't have a caption property.
+
+ This program is provided "as is" with no warrenty or license aggreement
+expressed or implied.  If you wish to use this program, you are at fault for
+any damages that may occurr.  Don't blame me! Hey, it's freeware!  Use this at
+your own risk!
